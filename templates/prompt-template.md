@@ -22,22 +22,22 @@ description: Reusable template to structure system instructions and agent tasks.
 
 ## 🎯 Objectives & Tasks
 Provide a numbered list of instructions the agent must perform:
-1. **Analyze Input**: [e.g., Read the raw story from `knowledge/stories/`]
-2. **Retrieve Context**: [e.g., Cross-reference technical guidelines in `knowledge/technical/`]
-3. **Generate Output**: [e.g., Format the result as standard Markdown in `posts/02-drafts/`]
+1. **Analyze Input**: [e.g., Read the raw story from `stories/`]
+2. **Retrieve Context**: [e.g., Cross-reference guidelines in `knowledge/writing-style.md`]
+3. **Generate Output**: [e.g., Format the result as standard Markdown in `posts/`]
 
 ---
 
 ## 🛡️ Rules & Constraints
 Clear boundaries the agent **must not** cross:
-* **Constraint 1**: [e.g., Do NOT invent experience. Only use facts in `who-am-i.md`]
+* **Constraint 1**: [e.g., Do NOT invent experience. Only use facts in `profile.md`]
 * **Constraint 2**: [e.g., Never use buzzwords like "delve", "testament", or "revolutionary"]
 * **Constraint 3**: [e.g., Output markdown only—no conversational introductory or concluding text]
 
 ---
 
 ## 📥 Input Requirements
-* **Context Files Needed**: [e.g., `prompts/writing-style.md`, `knowledge/profile/who-am-i.md`]
+* **Context Files Needed**: [e.g., `knowledge/writing-style.md`, `knowledge/profile.md`]
 * **Expected Input Format**: [e.g., Raw project brief or transcript file]
 
 ---
