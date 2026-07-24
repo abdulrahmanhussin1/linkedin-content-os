@@ -15,10 +15,33 @@ This document maps every file in the **LinkedIn Content OS** repository, outlini
 ## 📂 Knowledge Base (`/knowledge`)
 Stores the raw, structured personal and technical knowledge about the developer.
 
-### Profile (`/knowledge/profile`)
+### Populated Files
+* [profile.md](file:///home/abdulrahman/Projects/linkedin-content-os/knowledge/profile.md): Personal information, bio summary, mission statement, and core values.
+* [skills.md](file:///home/abdulrahman/Projects/linkedin-content-os/knowledge/skills.md): Production technology proficiencies, project experience, and soft skills matrix.
+* [career.md](file:///home/abdulrahman/Projects/linkedin-content-os/knowledge/career.md): Overview of role histories (Backend Engineer, Entrepreneur) and catalog of builds.
+* [goals.md](file:///home/abdulrahman/Projects/linkedin-content-os/knowledge/goals.md): Technical roadmap, learning pipeline, target companies, and GCC/Egypt market profiles.
+* [writing-style.md](file:///home/abdulrahman/Projects/linkedin-content-os/knowledge/writing-style.md): Style parameters, tone guidelines, formatting rules, and brand constraints.
+
+### Detailed Profile Subfolders (`/knowledge/profile`)
 * [who-am-i.md](file:///home/abdulrahman/Projects/linkedin-content-os/knowledge/profile/who-am-i.md): Complete personal brand blueprint, soft skills, strengths/weaknesses, and general metadata.
 * [general.md](file:///home/abdulrahman/Projects/linkedin-content-os/knowledge/profile/general.md): Career experience overview, technological proficiency divisions, and project logs.
 * [career-history.md](file:///home/abdulrahman/Projects/linkedin-content-os/knowledge/profile/career-history.md): Exhaustive log tracking responsibilities, failures, big wins, and lessons per company.
+
+### Projects Base (`/knowledge/projects`)
+* [erp-system.md](file:///home/abdulrahman/Projects/linkedin-content-os/knowledge/projects/erp-system.md): Modular Monolith ERP platform targeting SMEs.
+* [pos-system.md](file:///home/abdulrahman/Projects/linkedin-content-os/knowledge/projects/pos-system.md): Point of Sale system for beauty salons.
+* [ticketing-system.md](file:///home/abdulrahman/Projects/linkedin-content-os/knowledge/projects/ticketing-system.md): Bug and ticket life-cycle tracker.
+* [file-manager.md](file:///home/abdulrahman/Projects/linkedin-content-os/knowledge/projects/file-manager.md): Web file manager built with Laravel and Vue.js.
+* [email-marketing.md](file:///home/abdulrahman/Projects/linkedin-content-os/knowledge/projects/email-marketing.md): Contact segmenting and asynchronous mail campaign manager.
+* [leads-management.md](file:///home/abdulrahman/Projects/linkedin-content-os/knowledge/projects/leads-management.md): Pipeline log tracking customers and prospects.
+* [call-center-qa.md](file:///home/abdulrahman/Projects/linkedin-content-os/knowledge/projects/call-center-qa.md): QA evaluation and branch reporting engine.
+* [wedding-invitation.md](file:///home/abdulrahman/Projects/linkedin-content-os/knowledge/projects/wedding-invitation.md): Client interface monorepo client built with React and Vite.
+
+### Stories Base (`/knowledge/stories`)
+* [erp-monolith-transition.md](file:///home/abdulrahman/Projects/linkedin-content-os/knowledge/stories/erp-monolith-transition.md): Rationale behind using a modular monolith for the ERP system.
+* [vercel-wedding-deployment.md](file:///home/abdulrahman/Projects/linkedin-content-os/knowledge/stories/vercel-wedding-deployment.md): Process of decoupling the wedding invites and running them serverless.
+* [salon-pos-commission-tracking.md](file:///home/abdulrahman/Projects/linkedin-content-os/knowledge/stories/salon-pos-commission-tracking.md): Database modeling challenges linking checkout logic to commissions.
+* [online-food-marketing-analytics.md](file:///home/abdulrahman/Projects/linkedin-content-os/knowledge/stories/online-food-marketing-analytics.md): Fusing marketing campaigns with backend conversion tracking.
 
 ---
 
