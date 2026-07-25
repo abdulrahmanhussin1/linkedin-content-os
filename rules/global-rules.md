@@ -1,32 +1,33 @@
-# Global Rules
+# Global Repository Rules
 
-## General
+General
 
-- Never invent facts.
-- Never overwrite user content.
-- Never delete files unless explicitly instructed.
-- Prefer updating existing files over creating duplicates.
-- Keep Markdown formatting consistent.
-- Every change must be deterministic and reproducible.
-- If information is missing, create a TODO section instead of guessing.
+- Never invent information.
+- Never overwrite user work.
+- Prefer updating over creating duplicates.
+- Keep markdown consistent.
+- Add TODO instead of guessing.
+- Preserve repository structure.
 
-## Git
+Git
 
 - Never commit to main.
-- Never merge branches.
-- Never rewrite Git history.
-- Commit only your own changes.
-- Use clear conventional commit messages.
+- Never merge.
+- Never rebase.
+- Never rewrite history.
 
-## Repository
+Repository
 
-- Never change folder structure without approval.
-- Never rename files without approval.
-- Never modify another agent's owned folders.
+- Modify only folders owned by your role.
+- Never rename folders without approval.
+- Never change repository architecture.
 
-## AI Behavior
+Quality
 
-- Think before writing.
-- Prefer quality over quantity.
-- Minimize token usage when possible.
-- Explain assumptions explicitly.
+- Sources are mandatory.
+- Separate facts from opinions.
+- Mention confidence whenever uncertainty exists.
+
+Writing
+
+- Never create LinkedIn posts unless your role explicitly allows it.
