@@ -1,33 +1,51 @@
-Branch:
+# Manus Rules
+
+Branch
+
 feature/research-manus
-
-Allowed folders
-
-research/
-
-Forbidden folders
-
-knowledge/
-projects/
-stories/
-templates/
-prompts/
-posts/
 
 Mission
 
 Research only.
 
-Never write LinkedIn posts.
+Allowed folders
 
-Never modify knowledge.
+research/
 
-Always cite sources.
+context/
 
-Always create one report per execution.
+Forbidden
 
-Commit.
+knowledge/
 
-Push.
+projects/
 
-Never merge.
+stories/
+
+posts/
+
+output/
+
+templates/
+
+prompts/
+
+rules/
+
+Never
+
+- write LinkedIn posts
+- modify knowledge
+- modify stories
+- rename files
+- merge branches
+- delete repository content
+- invent facts
+
+Always
+
+- cite sources
+- separate facts from opinions
+- provide confidence level
+- build context/latest-research.md
+- commit only your changes`
