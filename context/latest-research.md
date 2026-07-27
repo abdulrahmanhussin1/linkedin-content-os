@@ -1,40 +1,40 @@
 # Research Context
 
-**Date:** 2026-07-26
+**Date:** 2026-07-27
 
 ## Today's Important Facts
-*   **Laravel 13.20.0** released with first-party image processing (`Illuminate\Image`).
-*   **PHP 8.6 Alpha 2** confirms major `array_map` performance optimization for first-class callables.
-*   **Claude Code** is currently the #1 terminal-first coding agent by usage, followed by OpenAI Codex and Cursor.
-*   **PHP 8.6 Deprecations RFC** is frozen; vote on deprecating `list()` starts July 27.
-*   **WorkOS AuthKit** is now the default advanced auth option in new Laravel starter kits.
+*   **Laravel 13 Stable** released: Features native AI SDK, JSON:API resources, and vector search.
+*   **PHP 8.6 Deprecations Vote** opens today (July 27): Focus on `list()` deprecation.
+*   **OpenAI Codex (GPT-5.5)** leads Terminal-Bench 2.1 with 83.4% success rate.
+*   **Devin Desktop** (formerly Windsurf) is now the primary budget-friendly autonomous agent.
+*   **70% of Organizations** have moved to cloud-native microservices/serverless architectures in 2026.
 
 ## Current Industry Trends
-*   **Shift to "Agentic Engineering":** Moving away from simple "vibe coding" toward structured, spec-driven development with AI agents.
-*   **AI Supply Chain Security:** Increasing focus on "guardrails" for AI agents with production server access.
-*   **Full-Stack Convergence:** AI agents are enabling backend engineers to take on more frontend and DevOps responsibilities.
-*   **ZTS-by-Default:** Strong push in PHP internals to make thread safety the default for PHP 9.
+*   **"Agentic Engineering":** The shift from "vibe coding" (prototyping) to spec-driven, enterprise-ready AI development.
+*   **AI Supply Chain Security:** Treating AI production access as a high-risk security vector (the "new FTP").
+*   **Full-Stack Builder Role:** AI is merging backend, frontend, and DevOps into a single "Builder" role.
+*   **Usage-Based AI Credits:** Dominant pricing model for developer tools in 2026.
 
 ## Interesting Discussions
-*   **AI Agents as "New FTP":** Debate on the dangers of giving agents direct production access.
-*   **Legacy vs. Modern Syntax:** The `list()` vs. short array syntax debate in PHP 8.6.
-*   **"Babysitting" AI:** Comparative reviews on the manual oversight required for Claude Code vs. Codex.
-*   **Service Container Magic:** Discussion on whether Laravel's container is becoming too opaque for AI reasoning.
+*   **JSX in PHP Core:** Technical debate on native markup expressions in PHP internals.
+*   **The "Seniority Gap":** Junior developers' reliance on AI potentially creating a future knowledge vacuum.
+*   **Laravel Cloud "Weekend Challenges":** Rapid deployment of niche SaaS apps by solo founders.
+*   **ZTS-by-Default:** Push for thread safety in PHP 9 to support high-performance runtimes.
 
 ## Available Content Seeds
-*   **Agent Productivity:** How Staff+ engineers use agents for architecture, not just syntax.
-*   **PHP 8.6 Performance:** The end of the `array_map` vs. `foreach` performance debate.
-*   **Laravel 13.20:** Native image processing as a reason to drop external dependencies.
-*   **Security Guardrails:** Why "vibe coding" in production is a liability.
-*   **The Full-Stack Backend:** Why the "Backend Only" role is evolving into "Full-Stack Builder."
+*   **Laravel 13 AI SDK:** Building provider-agnostic AI features natively.
+*   **PHP 8.6 Performance:** The end of the `array_map` vs. `foreach` performance tax.
+*   **Agent Productivity:** Why Staff+ engineers focus on "agent orchestration" over syntax.
+*   **Security Guardrails:** Implementing human-in-the-loop controls for autonomous agents.
+*   **The 2026 Roadmap:** Why "Computer Architecture" is more important now than ever.
 
 ## Best Audience Today
-*   **Senior Backend Engineers:** Focus on PHP 8.6 optimizations and architectural shifts.
-*   **SaaS Founders:** Focus on Laravel Cloud speed and "Vertical SaaS" opportunities.
+*   **Senior Backend Engineers:** Focus on PHP 8.6 RFCs and distributed architecture.
+*   **SaaS Founders:** Focus on Laravel Cloud speed and niche vertical automation.
 *   **Engineering Managers:** Focus on AI supply chain security and the "Seniority Gap."
 
 ## Useful References
-*   [Laravel 13.20 Release](https://laravel-news.com/laravel-13-20-0)
-*   [PHP Foundation Q2 Report](https://thephp.foundation/blog/2026/07/21/quarterly-report-q2-2026/)
-*   [Red-Gate AI Tool Review](https://www.red-gate.com/simple-talk/ai/the-best-ai-developer-tools-in-2026-from-coding-agents-to-code-review/)
+*   [Laravel 13 Release Notes](https://laravel.com/docs/13.x/releases)
+*   [Levelop AI Agent Ranking](https://levelop.dev/blog/the-best-ai-coding-agents-in-2026-a-practical-ranking-for-working-developers)
+*   [PHP Internals July 22 Update](https://www.reddit.com/r/laravel/comments/1v444zx/this_week_in_php_internals_july_22_2026/)
 *   [Stack Overflow: Full-Stack Future](https://stackoverflow.blog/2026/07/21/the-future-of-development-is-full-stack/)
