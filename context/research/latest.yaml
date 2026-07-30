@@ -1,44 +1,45 @@
-date: 2026-07-29
+date: 2026-07-30
 major_trends:
   - title: "The Full-Stack Builder Convergence"
+    frequency: "Daily"
     importance: 9
     confidence: 95
     impact_engineering: "Backend engineers adopting frontend and DevOps tasks via AI agents."
     impact_business: "Faster shipping with smaller, versatile teams."
   - title: "Agentic Engineering over Vibe Coding"
+    frequency: "High"
     importance: 8
     confidence: 90
     impact_engineering: "Shift to spec-driven development with deterministic verification."
     impact_business: "Higher reliability and lower technical debt."
 strong_signals:
+  - title: "Laravel v13.23.0 Release"
+    status: "Stable"
+    impact: "Monthly log driver and PostgreSQL using() migration support."
   - title: "PHP 8.6 list() Deprecation"
     status: "In Voting"
-    impact: "Massive refactoring for legacy PHP/WordPress codebases."
-  - title: "Native Vector Search in Laravel 13"
-    status: "Stable"
-    impact: "Simplifies RAG and semantic search implementation in Eloquent."
+    impact: "Potential massive refactoring for legacy PHP/WordPress codebases."
 weak_signals:
   - title: "JSX-flavored Markup in PHP"
     status: "Early RFC"
     prediction: "Potential merger of Blade and modern component models."
 engineering_decisions:
-  - "Adopt Queue::route by class in Laravel 13."
-  - "Implement Cache::touch for TTL extension."
-  - "Prepare for ZTS-by-default in PHP 9."
+  - "Adopt monthly log driver for low-traffic applications."
+  - "Utilize ->using() for PostgreSQL migrations to handle type casts."
+  - "Centralize queue mapping via Queue::route."
 business_opportunities:
-  - "The Second Chance Market (FailedUps.com)."
-  - "Vertical AI Automation for niche industries."
+  - "The Second Chance Market (FailedUps.com) for unfinished SaaS."
+  - "Vertical AI Automation for niche industries (Legal/Construction)."
 learning_priorities:
-  - "Agentic Tool-Calling Workflows"
+  - "Agentic tool-calling workflows in PHP"
   - "PostgreSQL + pgvector implementation"
   - "AST Parsing for code verification"
-  - "Distributed Systems fault handling"
 knowledge_gaps:
-  - "AI Supply Chain Security standards"
-  - "Long-term AI-generated code maintenance costs"
+  - "Standardized guardrail frameworks for autonomous agents"
+  - "Long-term maintenance costs of AI-generated code"
 recommended_topics:
-  - "Laravel 13 native features"
-  - "PHP 8.6 performance optimizations"
+  - "Laravel 13.23 new features"
+  - "PHP 8.6 RFC voting status"
   - "Agent orchestration for Staff+ engineers"
 avoid_topics:
   - "Generic AI hype without technical implementation"
@@ -47,29 +48,29 @@ entities:
   frameworks:
     - "Laravel 13"
     - "Symfony 8"
-    - "FrankenPHP"
+    - "Inertia 2"
   languages:
     - "PHP 8.6"
     - "PHP 9"
-    - "Rust"
+    - "TypeScript"
   companies:
     - "Anthropic"
     - "OpenAI"
-    - "Cognition"
+    - "Laravel"
     - "GitHub"
   tools:
     - "Claude Code"
     - "OpenAI Codex"
-    - "Devin Desktop"
+    - "Laravel Cloud"
     - "pgvector"
   concepts:
     - "Agentic Engineering"
     - "Full-Stack Builder"
-    - "AT Protocol"
+    - "JSX in PHP"
 references:
-  - url: "https://laravel.com/docs/master/releases"
-    title: "Laravel 13 Release Notes"
+  - url: "https://laravel-news.com/laravel-13-23-0"
+    title: "Laravel 13.23 Release Notes"
+  - url: "https://wiki.php.net/rfc"
+    title: "PHP RFC Wiki"
   - url: "https://stackoverflow.blog/2026/07/21/the-future-of-development-is-full-stack/"
     title: "The future of development is full-stack"
-  - url: "https://www.phpweekly.com/archive/latest.html"
-    title: "PHP Weekly July 24, 2026"
