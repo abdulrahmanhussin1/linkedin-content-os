@@ -1,45 +1,45 @@
-date: 2026-07-30
+date: 2026-07-31
 major_trends:
-  - title: "The Full-Stack Builder Convergence"
+  - title: "Agentic Engineering over Vibe Coding"
     frequency: "Daily"
     importance: 9
     confidence: 95
-    impact_engineering: "Backend engineers adopting frontend and DevOps tasks via AI agents."
-    impact_business: "Faster shipping with smaller, versatile teams."
-  - title: "Agentic Engineering over Vibe Coding"
+    impact_engineering: "Shift to spec-driven development with deterministic verification."
+    impact_business: "Higher reliability and lower technical debt."
+  - title: "The Full-Stack Builder Convergence"
     frequency: "High"
     importance: 8
     confidence: 90
-    impact_engineering: "Shift to spec-driven development with deterministic verification."
-    impact_business: "Higher reliability and lower technical debt."
+    impact_engineering: "Backend engineers adopting frontend and DevOps tasks via AI agents."
+    impact_business: "Faster shipping with smaller, versatile teams."
 strong_signals:
-  - title: "Laravel v13.23.0 Release"
-    status: "Stable"
-    impact: "Monthly log driver and PostgreSQL using() migration support."
   - title: "PHP 8.6 list() Deprecation"
-    status: "In Voting"
+    status: "Voting Closes Today"
     impact: "Potential massive refactoring for legacy PHP/WordPress codebases."
+  - title: "Laravel LSP"
+    status: "Announced"
+    impact: "First-party framework-aware completions and diagnostics."
 weak_signals:
-  - title: "JSX-flavored Markup in PHP"
-    status: "Early RFC"
-    prediction: "Potential merger of Blade and modern component models."
+  - title: "Forkable VM Snapshots (Kedge)"
+    status: "Early Adopter"
+    prediction: "Potential replacement for container-based staging environments."
 engineering_decisions:
   - "Adopt monthly log driver for low-traffic applications."
   - "Utilize ->using() for PostgreSQL migrations to handle type casts."
-  - "Centralize queue mapping via Queue::route."
+  - "Migrate to official Inertia DevTools Chrome extension."
 business_opportunities:
   - "The Second Chance Market (FailedUps.com) for unfinished SaaS."
-  - "Vertical AI Automation for niche industries (Legal/Construction)."
+  - "AI Agent Guardrail Services to secure autonomous production access."
 learning_priorities:
   - "Agentic tool-calling workflows in PHP"
+  - "Laravel LSP configuration and optimization"
   - "PostgreSQL + pgvector implementation"
-  - "AST Parsing for code verification"
 knowledge_gaps:
   - "Standardized guardrail frameworks for autonomous agents"
   - "Long-term maintenance costs of AI-generated code"
 recommended_topics:
   - "Laravel 13.23 new features"
-  - "PHP 8.6 RFC voting status"
+  - "PHP 8.6 RFC voting results"
   - "Agent orchestration for Staff+ engineers"
 avoid_topics:
   - "Generic AI hype without technical implementation"
@@ -61,16 +61,16 @@ entities:
   tools:
     - "Claude Code"
     - "OpenAI Codex"
-    - "Laravel Cloud"
-    - "pgvector"
+    - "Laravel LSP"
+    - "Kedge"
   concepts:
     - "Agentic Engineering"
     - "Full-Stack Builder"
-    - "JSX in PHP"
+    - "Forkable VMs"
 references:
-  - url: "https://laravel-news.com/laravel-13-23-0"
-    title: "Laravel 13.23 Release Notes"
+  - url: "https://laravel-news.com/laravel-lsp-a-first-party-language-server-announced-at-laracon-us-2026"
+    title: "Laravel LSP Announcement"
   - url: "https://wiki.php.net/rfc"
     title: "PHP RFC Wiki"
-  - url: "https://stackoverflow.blog/2026/07/21/the-future-of-development-is-full-stack/"
-    title: "The future of development is full-stack"
+  - url: "https://kedge.dev/"
+    title: "Kedge Launch"

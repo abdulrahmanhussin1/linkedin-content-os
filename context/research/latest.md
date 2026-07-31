@@ -1,35 +1,35 @@
 # Research Context (Human)
 
-**Date:** 2026-07-30
+**Date:** 2026-07-31
 
 ## Today's Important Facts
-*   **Laravel v13.23.0 Released:** New features include a `monthly` log driver, SES tenant support, and PostgreSQL `using()` migration clauses.
-*   **PHP 8.6 Deprecations Vote:** The vote on deprecating `list()` and other constructs is active; community tension is high regarding legacy support.
-*   **AI Agent Performance:** OpenAI Codex and Claude Code remain the top choices for "Agentic Engineering" workflows.
-*   **Full-Stack Convergence:** 2026 data shows a significant merging of backend and frontend roles into "Full-Stack Builders."
+*   **PHP 8.6 Deprecations Vote:** The vote closes today, July 31. The `list()` removal remains the most contested item in the community.
+*   **Laravel LSP:** Taylor Otwell announced a first-party Language Server at Laracon US 2026, promising deep framework-aware static analysis.
+*   **Inertia DevTools Stable:** The official extension is now on the Chrome Web Store, replacing older community-driven tools.
+*   **Laravel v13.23.0:** Stable release includes the `monthly` log driver and PostgreSQL `using()` clause support.
 
 ## Current Industry Trends
-*   **Agentic Engineering:** A shift from simple AI code generation to spec-driven, deterministic development using `AGENTS.md`.
-*   **AI Production Risk:** Security experts are labeling autonomous production access as the "new FTP"—a major security liability.
-*   **Cloud-Native Maturity:** 70% of organizations have moved to microservices/serverless for better fault isolation.
+*   **Agentic Engineering:** A shift from "vibe coding" (blind AI generation) to spec-driven development using `AGENTS.md` and deterministic verification.
+*   **The "New FTP" Warning:** Security experts are labeling autonomous AI production access as the "new FTP"—a major security liability.
+*   **Full-Stack Builder Convergence:** AI is merging backend, frontend, and DevOps roles into a single "Builder" persona.
 
 ## Interesting Discussions
-*   **JSX in PHP:** The potential for native markup expressions in PHP core, bringing React-like component patterns to server-side PHP.
-*   **The "Seniority Gap":** Growing concern that AI over-reliance is eroding fundamental debugging skills in junior developers.
-*   **Laravel Cloud weekend challenges:** solo founders launching production apps in days, driving a surge in niche SaaS products.
+*   **Forkable VMs:** Kedge's launch on HN is sparking debate about replacing container-based staging with instant VM snapshots.
+*   **Junior Debugging Gap:** Growing concern that AI over-reliance is preventing junior developers from learning fundamental debugging skills.
+*   **ZTS-by-Default:** Technical debate on making PHP 9 thread-safe by default to support modern high-performance runtimes.
 
 ## Available Content Seeds
 *   **Laravel 13.23 `monthly` logging:** Why smaller apps should switch to avoid directory bloat.
 *   **PostgreSQL `using()` migrations:** Solving the "cannot be cast automatically" error in Laravel.
-*   **AI Agent Orchestration:** Why senior engineers now focus on managing agents rather than writing syntax.
-*   **Security Guardrails:** Implementing deterministic verification for AI-generated code.
+*   **AI Agent Guardrails:** Why you shouldn't give your AI agents production access (the "new FTP").
+*   **Laravel LSP:** How first-party tooling is changing the developer experience in 2026.
 
 ## Best Audience Today
-*   **Senior Backend Engineers:** Focus on PHP 8.6 RFCs and distributed architecture.
-*   **SaaS Founders:** Focus on Laravel Cloud speed and vertical AI automation.
+*   **Senior Backend Engineers:** Focus on PHP 8.6 RFCs and distributed architecture (Kedge).
+*   **SaaS Founders:** Focus on "Agentic Engineering" for faster, more reliable shipping.
 *   **Engineering Managers:** Focus on the "Seniority Gap" and AI supply chain security.
 
 ## Useful References
-*   [Laravel 13.23 Release Notes](https://laravel-news.com/laravel-13-23-0)
+*   [Laravel News: Laravel LSP Announcement](https://laravel-news.com/laravel-lsp-a-first-party-language-server-announced-at-laracon-us-2026)
 *   [PHP Internals Wiki - RFCs](https://wiki.php.net/rfc)
-*   [Stack Overflow: Full-Stack Future](https://stackoverflow.blog/2026/07/21/the-future-of-development-is-full-stack/)
+*   [Hacker News: Kedge Launch](https://kedge.dev/)
