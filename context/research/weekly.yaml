@@ -1,0 +1,43 @@
+week: 2026-W31
+period: "2026-07-26 to 2026-07-31"
+executive_summary: "Stabilization of AI-native primitives in Laravel 13 and community resistance to PHP 8.6 deprecations."
+major_trends:
+  - agentic_tool_calling
+  - vertical_ai_automation
+  - full_stack_resurgence
+strong_signals:
+  - php_8_6_list_deprecation_backlash
+  - laravel_lsp_announcement
+  - native_vector_search_laravel_13
+weak_signals:
+  - kedge_forkable_vms
+  - jsx_php_rfc
+trend_frequency:
+  ai_agents: daily
+  laravel_13_updates: daily
+  php_internals: 3x_weekly
+  security_guardrails: 2x_weekly
+repeated_discussions:
+  - ai_production_access_security
+  - zts_by_default_php_9
+  - junior_dev_knowledge_gap
+topics_disappeared:
+  - simple_ai_autocomplete
+  - flat_seat_saas_pricing
+engineering_decisions:
+  - adopt_monthly_log_driver
+  - mandatory_pgsql_using_clause
+  - queue_routing_centralization
+business_opportunities:
+  - second_chance_saas_market
+  - ai_agent_guardrail_services
+  - vertical_automation_niche_saas
+learning_priorities:
+  - agentic_tool_calling
+  - semantic_search_pgvector
+  - ast_parsing_php
+knowledge_gaps:
+  - rbac_for_ai_agents
+  - long_term_ai_generated_code_maintenance
+content_seeds_count: 5
+reference_count: 4
