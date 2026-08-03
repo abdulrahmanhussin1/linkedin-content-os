@@ -1,4 +1,4 @@
-date: 2026-08-02
+date: 2026-08-03
 major_trends:
   - title: "PHP 8.6 RFCs in Final Voting"
     frequency: "Daily"
@@ -86,3 +86,5 @@ references:
     title: "Three Bold Predictions for Distributed Systems in 2026"
   - url: "https://brocoders.com/blog/saas-ideas-startups/"
     title: "SaaS Startup Ideas in 2026: What Actually Works (And...)"
+  - url: "https://github.com/risingwavelabs/rfcs"
+    title: "risingwavelabs/rfcs GitHub"
