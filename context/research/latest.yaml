@@ -1,4 +1,4 @@
-date: 2026-08-03
+date: 2026-08-04
 major_trends:
   - title: "PHP 8.6 RFCs in Final Voting"
     frequency: "Daily"
@@ -12,10 +12,19 @@ major_trends:
     confidence: 85
     impact_engineering: "Shift towards object storage as a database and advanced consensus algorithms for reliability."
     impact_business: "Enables more scalable and resilient backend infrastructure, reducing downtime and data loss risks."
+  - title: "Agentic Engineering"
+    frequency: "Weekly"
+    importance: 9
+    confidence: 90
+    impact_engineering: "Move towards structured, spec-driven AI development with robust verification and guardrails."
+    impact_business: "Enhances reliability and safety of AI integrations, reducing risks and increasing trust."
 strong_signals:
   - title: "Laravel AI SDK Enhancements"
     status: "Active Development"
     impact: "Human-in-the-loop tool approval and middleware guardrails for safer, enterprise-ready AI integrations."
+  - title: "Pest 5 Release"
+    status: "Released"
+    impact: "Introduces Test Impact Analysis, Agent Verification, and Evals, significantly enhancing testing capabilities for Laravel applications."
   - title: "SaaS Security as a Priority"
     status: "Market Demand"
     impact: "B2B SaaS buyers prioritize SOC 2, SSO, and audit logs, making security a baseline for market entry."
@@ -30,10 +39,12 @@ engineering_decisions:
   - "Monitor PHP 8.6 RFC outcomes to prepare for language changes."
   - "Prioritize security and compliance features in new SaaS development."
   - "Explore distributed consensus algorithms for building highly available systems."
+  - "Adopt Pest 5 for enhanced testing capabilities."
 business_opportunities:
   - "Developing specialized AI agents for niche advisory roles (e.g., financial, legal)."
   - "Building SaaS products with robust, built-in security and compliance features."
   - "Offering services for migrating legacy PHP applications to PHP 8.6+."
+  - "Providing consulting on AI agent harness engineering and security."
 learning_priorities:
   - "Advanced prompt engineering for AI tools."
   - "Distributed consensus algorithms (Raft, Paxos)."
@@ -47,6 +58,7 @@ recommended_topics:
   - "Impact of PHP 8.6 on large-scale applications."
   - "Best practices for securing AI agents in production."
   - "The role of object storage in modern distributed databases."
+  - "Leveraging Pest 5 for advanced Laravel testing."
 avoid_topics:
   - "Generic AI hype without concrete engineering applications."
   - "Marketing-focused SaaS articles without technical depth."
@@ -55,6 +67,7 @@ entities:
     - "Laravel"
     - "PHP"
     - "Symfony"
+    - "Pest"
   languages:
     - "PHP 8.6"
     - "PHP 8.x"
@@ -66,11 +79,15 @@ entities:
     - "CPX 2.0"
     - "Queue-SQL"
     - "Diátaxis"
+    - "Pgtestdb"
+    - "Intercept Middleware"
   concepts:
     - "Human-in-the-Loop (HITL)"
     - "Distributed Consensus"
     - "Object Storage as Database"
     - "Agentic Engineering"
+    - "Test Impact Analysis"
+    - "Agent Verification"
 references:
   - url: "https://wiki.php.net/rfc"
     title: "PHP Internals Wiki: Request for Comments"
@@ -80,11 +97,17 @@ references:
     title: "Hacker News"
   - url: "https://blog.colinbreck.com/predicting-the-future-of-distributed-systems/"
     title: "Predicting the Future of Distributed Systems"
+  - url: "https://se-radio.net/2026/07/se-radio-730-birgitta-boeckeler-on-harness-engineering-for-ai-agents/"
+    title: "SE Radio 730: Birgitta Boeckeler on Harness Engineering for AI Agents"
   - url: "https://www.phpweekly.com/archive/latest.html"
     title: "PHP Weekly Archive"
+  - url: "https://www.refontelearning.com/blog/backend-engineering-in-2026-top-tools-best-practices-and-career-insights"
+    title: "Backend Engineering in 2026: Top Tools, Best Practices, and Career ..."
   - url: "https://www.axoniq.io/blog/three-bold-predictions-for-distributed-systems-in-2026"
     title: "Three Bold Predictions for Distributed Systems in 2026"
-  - url: "https://brocoders.com/blog/saas-ideas-startups/"
-    title: "SaaS Startup Ideas in 2026: What Actually Works (And...)"
+  - url: "https://www.reddit.com/r/SaaS/comments/1sabkey/8_principles_for_launching_a_startup_in_2026_that/"
+    title: "8 principles for launching a startup in 2026 that actually ..."
+  - url: "https://foundersworkshop.com/blog/uncategorized/building-ai-features-into-saas-a-2026-strategic-guide-for-product-leaders/"
+    title: "Building AI Features into SaaS: A 2026 Strategic Guide for Product Leaders"
   - url: "https://github.com/risingwavelabs/rfcs"
     title: "risingwavelabs/rfcs GitHub"
