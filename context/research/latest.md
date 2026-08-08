@@ -1,36 +1,34 @@
 # Research Context (Human)
 
-**Date:** 2026-08-07
+**Date:** 2026-08-08
 
 ## Today's Important Facts
-*   **PHP 8.6 Freeze:** Soft feature freeze is scheduled for August 12, 2026. Alpha 3 is available for testing. [1]
-*   **Laravel Head & Doctor:** High adoption of Laravel's new first-party SEO and diagnostic tools announced at Laracon US. [2]
-*   **Stateful Serverless:** Deno Celld brings self-hosted Durable Objects, reducing cloud vendor lock-in. [3]
-*   **Agent Security Vulnerabilities:** Atlassian Rovo data exfiltration findings underscore the urgent need for agent-specific firewalls. [3]
-*   **SaaS Pricing Disruption:** AI efficiency is forcing SaaS companies to transition from per-seat to usage-based pricing models. [3]
+*   **Laravel 13.24:** Introduced automatic dominant color detection, native HEIC image support, and the optimized `modelKeys()` query builder helper. [1]
+*   **PHP 8.6 Freeze Countdown:** Soft feature freeze arrives on August 12, 2026. Pre-RFC discussions for reified generics are active. [2]
+*   **Laravel Boost Rules:** Repository-level instruction guidelines for guiding AI coding agents toward idiomatic framework conventions. [1]
+*   **Agent Security Governance:** Atlassian Rovo data exfiltration findings accelerate enterprise adoption of strict agent firewalls. [3]
+*   **SaaS Pricing Shift:** AI-driven productivity gains are forcing founders to abandon per-seat licensing for consumption metrics. [3]
 
 ## Current Industry Trends
-*   **Agentic Infrastructure:** Infrastructure is evolving from human-centric request/response models to agent-centric execution environments (Cloudflare OS, ARD). [3]
-*   **Low-Level Optimization:** Increased focus on micro-optimizations (e.g., branchless programming) as CRUD boilerplate is automated by AI. [3]
-*   **Security-First AI Integration:** Enterprises are shifting from permissive AI assistants to tightly sandboxed, read-only debugging tools. [3]
+*   **Repository-Level AI Control:** Teams are moving from global prompts to structured, project-specific instruction files (Boost Rules) to maintain code quality. [1]
+*   **Stateful Serverless Growth:** Self-hosted primitives like Deno Celld are making distributed Durable Objects mainstream. [3]
+*   **Security-First AI Adoption:** Unvetted agentic execution is being replaced by read-only triage tools and isolated sandboxes. [3]
 
 ## Interesting Discussions
-*   **Atlassian Rovo Security Flaw:** Analyzing how enterprise AI agents bypass access controls. [3]
-*   **SaaS Unit Economics:** Debating the collapse of per-seat software pricing. [3]
-*   **LLMs Can't Jump:** Examining the necessity of multi-step planning harnesses for AI reasoning. [3]
+*   **Reified Generics in PHP:** Debating the long-term type system evolution on the internals mailing list. [2]
+*   **Enterprise AI Data Risks:** Analyzing how unconstrained agent tools lead to accidental data exfiltration. [3]
 
 ## Available Content Seeds
-*   **Agent Firewalls:** Why enterprise AI needs dedicated security monitoring. [3]
-*   **PHP 8.6 Readiness:** Preparing codebases before the August 12 feature freeze. [1]
-*   **Stateful Serverless with Deno Celld:** Breaking free from cloud provider lock-in. [3]
+*   **Teaching AI Idiomatic Code:** How repository-level rules prevent legacy patterns in AI-generated codebases. [1]
+*   **The Death of Per-Seat SaaS:** Rethinking billing architectures for the AI era. [3]
 
 ## Best Audience Today
-*   **Backend Architects:** Focus on stateful serverless, leaderless consensus, and branchless optimization.
-*   **Security Professionals:** Focus on agent data exfiltration risks and least-privilege enforcement.
-*   **PHP/Laravel Developers:** Focus on PHP 8.6 freeze and Laravel Head/Doctor.
-*   **SaaS Founders:** Focus on changing unit economics and consumption-based pricing.
+*   **Laravel Developers:** Focus on Laravel 13.24 updates and Boost Rules.
+*   **Backend Architects:** Focus on stateful serverless and distributed Durable Objects.
+*   **Security Engineers:** Focus on enterprise AI data exfiltration risks and agent firewalls.
+*   **SaaS Founders:** Focus on consumption-based pricing transitions.
 
 ## Useful References
-[1] [PHP Internals Wiki & Externals.io](https://externals.io/)
-[2] [Laravel News](https://laravel-news.com/)
+[1] [Laravel News](https://laravel-news.com/)
+[2] [PHP Internals Wiki & Externals.io](https://externals.io/)
 [3] [Hacker News & InfoQ](https://news.ycombinator.com/)
